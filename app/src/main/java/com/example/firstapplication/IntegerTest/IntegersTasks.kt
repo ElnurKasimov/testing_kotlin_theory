@@ -16,4 +16,11 @@ fun main() {
     val deskB = getDeskQuantity(b)
     val deskC = getDeskQuantity(c)
     println(deskA + deskB + deskC)
+    val result1 = (a != b) and (b != c) and (a != c)
+    println(result1)
+    val result = when {
+        a in 1..9 -> true
+        else      -> false
+    }
+    println(result)
 }
