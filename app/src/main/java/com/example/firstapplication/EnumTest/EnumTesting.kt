@@ -1,4 +1,4 @@
-package com.example.firstapplication
+package com.example.firstapplication.EnumTest
 
 enum class Colour(val saturation : Double) {
     RED(80.4),

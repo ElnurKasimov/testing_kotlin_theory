@@ -1,4 +1,4 @@
-package com.example.firstapplication
+package com.example.firstapplication.SyntaxTest
 
 class Circle(var radius: Double) {
     private val pi: Double = 3.14

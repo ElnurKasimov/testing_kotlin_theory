@@ -1,4 +1,4 @@
-package com.example.firstapplication
+package com.example.firstapplication.SyntaxTest
 
 // Declare a function to determine age category based on the given age
 // Write a function that takes a person's age as input and prints

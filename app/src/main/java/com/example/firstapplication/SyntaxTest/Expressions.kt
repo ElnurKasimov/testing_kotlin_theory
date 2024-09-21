@@ -1,4 +1,4 @@
-package com.example.firstapplication
+package com.example.firstapplication.SyntaxTest
 
 class Expressions {
 

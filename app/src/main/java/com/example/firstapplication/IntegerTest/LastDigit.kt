@@ -1,4 +1,4 @@
-package com.example.firstapplication
+package com.example.firstapplication.IntegerTest
 
 import kotlin.math.abs
 
