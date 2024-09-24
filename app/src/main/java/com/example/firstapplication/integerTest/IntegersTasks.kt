@@ -1,4 +1,4 @@
-package com.example.firstapplication.IntegerTest
+package com.example.firstapplication.integerTest
 
 fun getDeskQuantity (pupils : Int ) : Int {
     val result = when {

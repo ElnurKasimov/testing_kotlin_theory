@@ -1,4 +1,4 @@
-package com.example.firstapplication.ExceptionTest
+package com.example.firstapplication.exceptionTest
 import java.lang.NumberFormatException
 
 fun main(args: Array<String>) {

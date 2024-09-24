@@ -1,4 +1,4 @@
-package com.example.firstapplication.IntegerTest
+package com.example.firstapplication.integerTest
 
 fun main() {
     val totalSeconds = System.currentTimeMillis() / 1000

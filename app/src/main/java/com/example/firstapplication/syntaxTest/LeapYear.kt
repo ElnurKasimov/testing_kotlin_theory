@@ -1,4 +1,4 @@
-package com.example.firstapplication.SyntaxTest
+package com.example.firstapplication.syntaxTest
 
 fun main() {
     val year = readln().toInt()

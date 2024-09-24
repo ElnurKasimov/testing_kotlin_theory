@@ -1,4 +1,4 @@
-package com.example.firstapplication.ListTest
+package com.example.firstapplication.listTest
 
 
 fun main() {

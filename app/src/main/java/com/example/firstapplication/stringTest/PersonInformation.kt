@@ -1,4 +1,4 @@
-package com.example.firstapplication.StringTest
+package com.example.firstapplication.stringTest
 
 fun main() {
     val(firstName, lastName, ageString)  = readln().split(" ")

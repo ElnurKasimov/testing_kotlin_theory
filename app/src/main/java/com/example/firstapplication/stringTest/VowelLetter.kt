@@ -1,4 +1,4 @@
-package com.example.firstapplication.StringTest
+package com.example.firstapplication.stringTest
 
 fun isVowel ( letter : Char) : Boolean {
     val result = when (letter.lowercaseChar()) {

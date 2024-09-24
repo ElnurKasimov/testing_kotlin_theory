@@ -1,4 +1,4 @@
-package com.example.firstapplication.ExceptionTest
+package com.example.firstapplication.exceptionTest
 
 fun main() {
     val line1 = readln().toInt()

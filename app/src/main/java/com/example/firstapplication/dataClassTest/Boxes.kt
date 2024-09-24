@@ -1,4 +1,4 @@
-package com.example.firstapplication.DataClassTest
+package com.example.firstapplication.dataClassTest
 
 data class Box(val height: Int, val length: Int, val width: Int)
 

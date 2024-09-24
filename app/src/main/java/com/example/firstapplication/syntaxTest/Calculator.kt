@@ -1,4 +1,4 @@
-package com.example.firstapplication.SyntaxTest
+package com.example.firstapplication.syntaxTest
 
 fun main(){
     val (var1, op, var2) = readln().split(" ")
