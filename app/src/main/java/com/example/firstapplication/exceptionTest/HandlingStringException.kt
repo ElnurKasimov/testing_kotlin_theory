@@ -1,4 +1,4 @@
-package com.example.firstapplication.regExpTest
+package com.example.firstapplication.exceptionTest
 
 fun main() {
     val index = readln().toInt()
