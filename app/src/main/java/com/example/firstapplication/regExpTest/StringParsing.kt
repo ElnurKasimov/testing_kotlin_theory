@@ -5,15 +5,15 @@ import java.lang.NumberFormatException
 
 
 fun stringToIntLength(input: String): Int {
-    val letters = input.toCharArray()
-    var result = 0
-    for(letter in letters) {
-        if (letter !in '0'..'9') {
-            return -1
-        } else {
-            result++
-        }
-    }
+//    val letters = input.toCharArray()
+//    var result = 0
+//    for(letter in letters) {
+//        if (letter !in '0'..'9') {
+//            return -1
+//        } else {
+//            result++
+//        }
+//    }
     return result
 }
 
