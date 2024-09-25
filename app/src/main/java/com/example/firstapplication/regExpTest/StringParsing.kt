@@ -1,18 +1,18 @@
 package com.example.firstapplication.regExpTest
 
-import java.lang.Exception
-import java.lang.NumberFormatException
+import kotlin.NumberFormatException
 
 
 fun stringToIntLength(input: String): Int {
-    val letters = input.toCharArray()
     var result = 0
-    for(letter in letters) {
-        if (letter !in '0'..'9') {
-            return -1
-        } else {
+    try {
+        var number = input.toLong()
+        do {
+            number /= 10
             result++
-        }
+        } while (number > 0)
+    } catch (e: NumberFormatException) {
+        result = -1
     }
     return result
 }
