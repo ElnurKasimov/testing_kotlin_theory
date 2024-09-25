@@ -1,7 +1,6 @@
 package com.example.firstapplication.regExpTest
 
-import java.lang.Exception
-import java.lang.NumberFormatException
+import kotlin.NumberFormatException
 
 
 fun stringToIntLength(input: String): Int {
@@ -14,6 +13,16 @@ fun stringToIntLength(input: String): Int {
 //            result++
 //        }
 //    }
+    var result = 0
+    try {
+        var number = input.toLong()
+        do {
+            number /= 10
+            result++
+        } while (number > 0)
+    } catch (e: NumberFormatException) {
+        result = -1
+    }
     return result
 }
 
