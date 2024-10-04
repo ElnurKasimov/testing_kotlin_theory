@@ -1,4 +1,4 @@
-package com.example.firstapplication.regExpTest
+package com.example.firstapplication.exceptionTest
 
 import kotlin.NumberFormatException
 
