@@ -13,4 +13,9 @@ fun main() {
     println("separator = $separator")
     println(listOf("tea", "coffee"))
     println("Crumpet" to "tea")
+    println("textBeforeAppending")
+    println(file.readText())
+    file.appendText("\nSomeone said.")
+    println("textAfterAppending")
+    println(file.readText())
 }
