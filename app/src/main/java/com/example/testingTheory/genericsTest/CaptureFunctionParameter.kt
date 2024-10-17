@@ -52,4 +52,18 @@ fun main() {
     mug1.drink()
     mug4.drink()
 
+
+    val mug: Mug<Beverage> = Mug(rom)
+    /*
+        when (mug) {
+            is Mug<Tea> -> println("Sipping on tea: ${mug.beverage}!")
+            is Mug<Rom> -> println("Sipping on rom: ${mug.beverage}!")
+        }
+        error, because it's impossible to infer type
+     */
+         when(mug.beverage){
+             is Tea -> println("Sipping on tea: ${mug.beverage}!")
+             is Rom -> println("Sipping on rom: ${mug.beverage}!")
+         }
+
 }
