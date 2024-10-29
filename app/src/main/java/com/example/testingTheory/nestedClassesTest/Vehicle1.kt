@@ -10,7 +10,7 @@ package com.example.testingTheory.nestedClassesTest
 //  in the following format: The <name> vehicle has a <color> body.
 
 
-class Vehicle {
+class Vehicle1 {
     val name: String
 
     constructor(name: String) {
@@ -25,6 +25,6 @@ class Vehicle {
 }
 
 fun main() {
-    val vehicle = Vehicle("friend")
-    vehicle.Body("red").printColor()
+    val vehicle1 = Vehicle1("friend")
+    vehicle1.Body("red").printColor()
 }
